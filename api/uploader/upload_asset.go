@@ -47,7 +47,7 @@ type UploadParams struct {
 	NotificationURL                string                      `json:"notification_url,omitempty"`
 	EagerNotificationURL           string                      `json:"eager_notification_url,omitempty"`
 	Faces                          *bool                       `json:"faces,omitempty"`
-	ImageMetadata                  *bool                       `json:"image_metadata,omitempty"`
+	MediaMetadata                  *bool                       `json:"media_metadata,omitempty"`
 	Exif                           *bool                       `json:"exif,omitempty"`
 	Colors                         *bool                       `json:"colors,omitempty"`
 	Phash                          *bool                       `json:"phash,omitempty"`
